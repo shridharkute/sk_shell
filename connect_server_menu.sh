@@ -47,3 +47,4 @@ done
 
 
 Connect_server
+exit 0
