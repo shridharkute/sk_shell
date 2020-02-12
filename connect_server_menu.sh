@@ -25,7 +25,7 @@ select server in $FULL_LIST;do
 					if [ $srv = previous_menu ];then
 						break
 					else
-						ssh -o StrictHostKeyChecking=no $srv uptime
+						ssh -o StrictHostKeyChecking=no $srv 
 					fi
 					;;
 					
