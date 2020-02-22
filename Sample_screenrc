@@ -1,0 +1,14 @@
+# daveg's suped up screenrc
+# http://daveg.outer-rim.org
+#
+# Last Modified: Wed Sep 10 11:37AM EST 2008
+# This is sample screenrc file
+# The caption line has the following entries
+# username@host | uptime | time - date | screens |
+hardstatus off
+hardstatus alwayslastline
+#hardstatus alwayslastline '%{= G}[ %{G}%H ]%{R}[%= %{= w}%?%-Lw%?%{= Y}%n*%f %t%?%{= R}(%u)%?%{= w}%+Lw%?%= %{= g}][ %{y}Load: %l %{g}][%{B}%Y-%m-%d %{W}%c:%s %{g}]'
+#hardstatus alwayslastline '%{= G}[ %{G}%H ]%{Y}[%= %{= w}%?%-Lw%?%{= Y}%n*%f %t%?%{= R}(%u)%?%{= w}%+Lw%?%= %{= g}][ %{y}Load: %l %{g}][%{B}%Y-%m-%d %{W}%c:%s %{g}]'
+#hardstatus alwayslastline '%{= G}[ %{G}%H ]%{Y}[%= %{= w}%?%-Lw%?%{= Rwy}%n*%f %t%?%{= R}(%u)%?%{= w}%+Lw%?%= %{= g}][ %{y}Load: %l %{g}][%{B}%Y-%m-%d %{W}%c:%s %{g}]'
+hardstatus alwayslastline '%{= G}[ %{G}%H ]%{y}[%-Lw%{KW}(%n%t)%{-}%+Lw%{y}%= ]%{G}[%{W}Load:%{r}%l%{G}]'
+#hardstatus alwayslastline '%{= G}[ %{G}%u%H ]%{Y}[%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<%{Y}%= ]%{G}[%{W}Load:%{r}%l%{G}]'
