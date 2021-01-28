@@ -1,6 +1,6 @@
 #!/bin/bash
 for i in `echo {1..100}`;do 
-	echo $i;sleep 0.1s
+	echo $i;sleep 2s
 done
 
 
